@@ -6,6 +6,10 @@ pygeofilter allows to parse several filter encoding standards (e.g., CQL JSON, C
 
 In DuckDB the geometry is currently stored as BLOB, which needs to be considered in the filter conversion. This extension is based on the following issue: https://github.com/geopython/pygeofilter/issues/90. 
 
+## Example
+An example Jupyter Notebook is available in the `example` folder and can be viewed here: 
+https://nbviewer.org/github/DLR-terrabyte/pygeofilter-duckdb/blob/main/example/Query-STAC-Geoparquet.ipynb
+
 ## Usage
 
 ```python
